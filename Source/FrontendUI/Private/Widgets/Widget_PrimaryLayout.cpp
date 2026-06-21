@@ -5,7 +5,7 @@
 
 #include "FrontendDebugHelper.h"
 
-UCommonActivatableWidgetContainerBase* UWidget_PrimaryLayout::FindWidgetStackByTag(const FGameplayTag& InTag)
+UCommonActivatableWidgetContainerBase* UWidget_PrimaryLayout::FindWidgetStackByTag(const FGameplayTag& InTag) const
 {
 	checkf(RegisteredWidgetStackMap.Contains(InTag), TEXT("Cannot find the widget stack by the tag %s"), *InTag.ToString());
 

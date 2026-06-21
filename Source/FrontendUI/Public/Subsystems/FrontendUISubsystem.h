@@ -23,7 +23,7 @@ public:
 	//~ End USubsystem Interface
 	
 	UFUNCTION(BlueprintCallable)
-	void RegsiterCreatedPrimaryLayoutWidget(UWidget_PrimaryLayout* InCreatedWidget);
+	void RegisterCreatedPrimaryLayoutWidget(UWidget_PrimaryLayout* InCreatedWidget);
 	
 private:
 	UPROPERTY(Transient)

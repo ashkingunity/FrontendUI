@@ -30,7 +30,7 @@ bool UFrontendUISubsystem::ShouldCreateSubsystem(UObject* Outer) const
 	return false;
 }
 
-void UFrontendUISubsystem::RegsiterCreatedPrimaryLayoutWidget(UWidget_PrimaryLayout* InCreatedWidget)
+void UFrontendUISubsystem::RegisterCreatedPrimaryLayoutWidget(UWidget_PrimaryLayout* InCreatedWidget)
 {
 	check(InCreatedWidget);
 	

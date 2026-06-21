@@ -17,7 +17,7 @@ class FRONTENDUI_API UWidget_PrimaryLayout : public UCommonUserWidget
 	GENERATED_BODY()
 
 public:
-	UCommonActivatableWidgetContainerBase* FindWidgetStackByTag(const FGameplayTag& InTag); 
+	UCommonActivatableWidgetContainerBase* FindWidgetStackByTag(const FGameplayTag& InTag) const;
 	
 protected:
 	UFUNCTION(BlueprintCallable) 
